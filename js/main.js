@@ -1,4 +1,4 @@
-import zlFetch from '/node_modules/zl-fetch/src/index'
+import zlFetch from 'https://cdn.jsdelivr.net/npm/zl-fetch@4.0.1/src/index.js'
 // Start writing JavaScript here!
 const todolist = document.querySelector('.todolist');
 const taskList = todolist.querySelector('.todolist__tasks');
