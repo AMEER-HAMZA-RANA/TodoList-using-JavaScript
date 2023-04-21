@@ -140,7 +140,7 @@ const debouncedFunction = debounce(e => {
       done
     }
   })
-  .then(res => console.log(res.body))
+  .then(res => {})
   .catch(err => console.log(err))
 }, 250)
 
