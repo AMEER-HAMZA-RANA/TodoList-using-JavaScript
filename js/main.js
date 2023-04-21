@@ -1,4 +1,4 @@
-import {zlFetch} from 'zl-fetch'
+import * as zlFetch from 'zl-fetch'
 // Start writing JavaScript here!
 const todolist = document.querySelector('.todolist');
 const taskList = todolist.querySelector('.todolist__tasks');
