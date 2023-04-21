@@ -1,4 +1,5 @@
 // Start writing JavaScript here!
+import zlFetch from 'zl-fetch'
 const todolist = document.querySelector('.todolist');
 const taskList = todolist.querySelector('.todolist__tasks');
 const rootendpoint = 'https://api.learnjavascript.today';
